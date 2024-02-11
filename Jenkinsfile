@@ -17,7 +17,7 @@ pipeline{
 		}	
 		stage( 'Success'){
 			step{
-				sh 'echo "Prometheus downloaded successfully"
+				sh 'echo "Prometheus downloaded successfully'
 			}
 		}
 	}
